@@ -10,7 +10,6 @@ print("6 - Para raiz")
 operacion = int(input("Ingrese la operacion: "))
 
 
-<<<<<<< HEAD
 numero1 = float(input("Ingrese un numero: "))
 numero2 = float(input("Ingrese otro numero: "))
 
@@ -24,7 +23,6 @@ if operacion == 3:
 
 if operacion == 5:
     print("la potencia de {} elevado a {} es {}".format(numero1,numero2,(numero1**numero2)))
-=======
 if (operacion==6):
         try :
             if numero1>0:
@@ -45,7 +43,6 @@ if (operacion==6):
 
         except ValueError:
             print("el segundo numero es negativo")
->>>>>>> cristian
 
 
 
