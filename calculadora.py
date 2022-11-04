@@ -14,5 +14,26 @@ numero2 = float(input("Ingrese otro numero: "))
 operacion = int(input("Ingrese la operacion: "))
 
 
+if (operacion==6):
+        try :
+            if numero1>0:
+                print("La raiz cuadrada de",numero1," es: ",numero1**(0.5))
+            else:
+                raise ValueError()
+    
+        except ValueError:
+            print("el primer numero es negativo")
+
+        try :
+                    
+            if numero2>0:
+                print("La raiz cuadrada de",numero2," es: ",numero2**(0.5))
+            else:
+                raise ValueError()    
+
+
+        except ValueError:
+            print("el segundo numero es negativo")
+
 
 
