@@ -8,10 +8,12 @@ print("5 - Para potenciar")
 print("6 - Para raiz")
 
 
+operacion = int(input("Ingrese la operacion: "))
+
 
 numero1 = float(input("Ingrese un numero: "))
 numero2 = float(input("Ingrese otro numero: "))
-operacion = int(input("Ingrese la operacion: "))
+
 
 
 
